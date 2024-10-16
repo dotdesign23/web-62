@@ -1,0 +1,55 @@
+:root {
+  /* Warna utama mirip Traveloka */
+  --bs-primary: #00aaff; /* Cyan terang untuk primary */
+  --bs-secondary: #6c757d; /* Tetap abu-abu untuk elemen sekunder */
+  --bs-success: #28a745; /* Hijau tetap untuk sukses */
+  --bs-info: #00d1d2; /* Cyan cerah untuk info */
+  --bs-warning: #ffc107; /* Kuning untuk warning */
+  --bs-danger: #ff5252; /* Merah cerah untuk danger */
+  --bs-light: #f8f9fa; /* Warna terang */
+  --bs-dark: #343a40; /* Warna gelap abu-abu */
+
+  /* RGB untuk elemen transparan */
+  --bs-primary-rgb: 0, 170, 255;
+  --bs-secondary-rgb: 108, 117, 125;
+  --bs-success-rgb: 40, 167, 69;
+  --bs-info-rgb: 0, 209, 210;
+  --bs-warning-rgb: 255, 193, 7;
+  --bs-danger-rgb: 255, 82, 82;
+  --bs-light-rgb: 248, 249, 250;
+  --bs-dark-rgb: 52, 58, 64;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff; /* Tetap putih untuk teks */
+  --bs-btn-bg: #00aaff; /* Warna cyan terang (Traveloka) */
+  --bs-btn-border-color: #00aaff; /* Border dengan warna cyan */
+  --bs-btn-hover-color: #fff; /* Tetap putih saat hover */
+  --bs-btn-hover-bg: #0097cc; /* Hover cyan sedikit lebih gelap */
+  --bs-btn-hover-border-color: #0097cc; /* Border saat hover */
+  --bs-btn-focus-shadow-rgb: 0, 170, 255; /* Warna shadow focus */
+  --bs-btn-active-color: #fff; /* Tetap putih untuk teks aktif */
+  --bs-btn-active-bg: #008bb2; /* Warna lebih gelap untuk saat aktif */
+  --bs-btn-active-border-color: #008bb2; /* Border saat aktif */
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); /* Shadow untuk tombol aktif */
+  --bs-btn-disabled-color: #fff; /* Warna teks putih saat disabled */
+  --bs-btn-disabled-bg: #00aaff; /* Background disabled */
+  --bs-btn-disabled-border-color: #00aaff; /* Border disabled */
+}
+
+.btn-outline-primary {
+	--bs-btn-color: #00aaff; /* Warna teks cyan untuk tombol outline */
+	--bs-btn-border-color: #00aaff; /* Border cyan */
+	--bs-btn-hover-color: #fff; /* Teks menjadi putih saat hover */
+	--bs-btn-hover-bg: #00aaff; /* Background cyan saat hover */
+	--bs-btn-hover-border-color: #00aaff; /* Border tetap cyan saat hover */
+	--bs-btn-focus-shadow-rgb: 0, 170, 255; /* Warna shadow focus (cyan) */
+	--bs-btn-active-color: #fff; /* Warna teks aktif tetap putih */
+	--bs-btn-active-bg: #0097cc; /* Background lebih gelap untuk saat aktif */
+	--bs-btn-active-border-color: #0097cc; /* Border saat aktif */
+	--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); /* Shadow untuk tombol aktif */
+	--bs-btn-disabled-color: #00aaff; /* Teks cyan saat disabled */
+	--bs-btn-disabled-bg: transparent; /* Background transparan saat disabled */
+	--bs-btn-disabled-border-color: #00aaff; /* Border cyan saat disabled */
+	--bs-gradient: none; /* Tanpa gradient */
+}
